@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "322440355847",
+    "project_id": "aeropos-31281",
+    "storage_bucket": "aeropos-31281.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322440355847:android:cd88be6e8ed3bd8fc10aa2",
+        "android_client_info": {
+          "package_name": "com.aeropos.ezo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322440355847-3d3cptj1imaefjud0sd5u01ca06hslis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGVGNkZHAUqS6swosoxwmdEoMRbx0E8Xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322440355847-3d3cptj1imaefjud0sd5u01ca06hslis.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

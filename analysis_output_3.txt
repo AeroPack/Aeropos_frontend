@@ -1,0 +1,182 @@
+Analyzing ezo...                                                
+
+   info • Don't invoke 'print' in production code • lib/core/database/app_database.dart:59:13 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/database/app_database.dart:125:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/database/app_database.dart:130:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/database/app_database.dart:362:7 • avoid_print
+warning • Unused import: 'package:drift/drift.dart' • lib/core/database/connection/connection.dart:1:8 • unused_import
+   info • 'package:drift/web.dart' is deprecated and shouldn't be used. This variant of web support has downsides compared to `package:drift/wasm.dart` and is in a deprecated bugfix-only mode. Please consider migrating to the new web APIS: https://drift.simonbinder.eu/web • lib/core/database/connection/web.dart:2:1 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/core/layout/pos_design_system.dart:128:9 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/core/layout/pos_design_system.dart:161:41 • deprecated_member_use
+   info • The constant name 'advanced_gst' isn't a lowerCamelCase identifier • lib/core/models/invoice_template.dart:6:65 • constant_identifier_names
+warning • Unused import: '../models/enums/sync_status.dart' • lib/core/repositories/base_repository.dart:3:8 • unused_import
+warning • Unused import: 'package:uuid/uuid.dart' • lib/core/repositories/product_repository.dart:6:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/core/repositories/sale_repository.dart:129:7 • avoid_print
+warning • This default clause is covered by the previous cases • lib/core/services/invoice_service.dart:37:7 • unreachable_switch_default
+warning • Unused import: '../models/enums/sync_status.dart' • lib/core/services/sync_service.dart:5:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:62:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:66:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:68:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:77:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:84:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:87:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:89:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:92:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:95:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:98:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:100:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:113:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:124:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:135:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:139:15 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:147:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:149:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:158:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:171:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:175:15 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:184:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:186:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:395:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:410:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:413:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:415:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:424:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:426:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:429:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:441:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:467:15 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:471:15 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:472:15 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:502:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/services/sync_service.dart:519:7 • avoid_print
+warning • Unused import: 'package:http/http.dart' • lib/core/viewModel/brand_view_model.dart:5:8 • unused_import
+warning • Unused import: 'dart:convert' • lib/core/viewModel/brand_view_model.dart:6:8 • unused_import
+warning • Unused import: '../../config/app_config.dart' • lib/core/viewModel/brand_view_model.dart:7:8 • unused_import
+warning • Unused import: 'package:http/http.dart' • lib/core/viewModel/category_view_model.dart:5:8 • unused_import
+warning • Unused import: 'dart:convert' • lib/core/viewModel/category_view_model.dart:6:8 • unused_import
+warning • Unused import: '../../config/app_config.dart' • lib/core/viewModel/category_view_model.dart:7:8 • unused_import
+  error • Undefined class 'UserEntity' • lib/core/viewModel/customer_view_model.dart:59:31 • undefined_class
+warning • Unused import: 'package:drift/drift.dart' • lib/core/viewModel/employee_view_model.dart:1:8 • unused_import
+warning • Unused import: 'package:http/http.dart' • lib/core/viewModel/product_view_model.dart:11:8 • unused_import
+warning • Unused import: 'dart:convert' • lib/core/viewModel/product_view_model.dart:13:8 • unused_import
+warning • Unused import: 'dart:io' • lib/core/viewModel/product_view_model.dart:14:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/core/viewModel/product_view_model.dart:89:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/viewModel/product_view_model.dart:91:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/viewModel/product_view_model.dart:92:7 • avoid_print
+warning • The declaration '_uploadImage' isn't referenced • lib/core/viewModel/product_view_model.dart:127:19 • unused_element
+   info • Don't invoke 'print' in production code • lib/core/viewModel/product_view_model.dart:145:7 • avoid_print
+warning • Unused import: 'package:drift/drift.dart' • lib/core/viewModel/supplier_view_model.dart:1:8 • unused_import
+warning • Unused import: 'package:http/http.dart' • lib/core/viewModel/supplier_view_model.dart:6:8 • unused_import
+warning • Unused import: 'dart:convert' • lib/core/viewModel/supplier_view_model.dart:7:8 • unused_import
+warning • Unused import: '../../config/app_config.dart' • lib/core/viewModel/supplier_view_model.dart:8:8 • unused_import
+warning • Unused import: 'package:http/http.dart' • lib/core/viewModel/unit_view_model.dart:5:8 • unused_import
+warning • Unused import: 'dart:convert' • lib/core/viewModel/unit_view_model.dart:6:8 • unused_import
+warning • Unused import: '../../config/app_config.dart' • lib/core/viewModel/unit_view_model.dart:7:8 • unused_import
+  error • Undefined class 'UserEntity' • lib/core/widgets/customer_form_dialog.dart:7:9 • undefined_class
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/core/widgets/pos_data_table.dart:37:33 • deprecated_member_use
+   info • 'MaterialStateProperty' is deprecated and shouldn't be used. Use WidgetStateProperty instead. Moved to the Widgets layer to make code available outside of Material. This feature was deprecated after v3.19.0-0.3.pre • lib/core/widgets/pos_data_table.dart:95:37 • deprecated_member_use
+   info • 'MaterialStateProperty' is deprecated and shouldn't be used. Use WidgetStateProperty instead. Moved to the Widgets layer to make code available outside of Material. This feature was deprecated after v3.19.0-0.3.pre • lib/core/widgets/pos_data_table.dart:96:34 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/core/widgets/pos_toast.dart:103:41 • deprecated_member_use
+   info • Constructors for public widgets should have a named 'key' parameter • lib/core/widgets/responsive_data_view.dart:10:9 • use_key_in_widget_constructors
+  error • Undefined class 'UserEntity' • lib/core/widgets/supplier_form_dialog.dart:7:9 • undefined_class
+  error • The name 'UserEntity' isn't a type, so it can't be used as a type argument • lib/features/customers/customer_list_screen.dart:50:32 • non_type_as_type_argument
+  error • The property 'name' can't be unconditionally accessed because the receiver can be 'null' • lib/features/customers/customer_list_screen.dart:58:25 • unchecked_use_of_nullable_value
+  error • The property 'phone' can't be unconditionally accessed because the receiver can be 'null' • lib/features/customers/customer_list_screen.dart:61:23 • unchecked_use_of_nullable_value
+  error • The property 'email' can't be unconditionally accessed because the receiver can be 'null' • lib/features/customers/customer_list_screen.dart:62:23 • unchecked_use_of_nullable_value
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/customers/customer_list_screen.dart:86:45 • deprecated_member_use
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/features/customers/customer_list_screen.dart:126:44 • sized_box_for_whitespace
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/dashboard/dashboard_screen.dart:143:33 • deprecated_member_use
+warning • Unused import: 'package:go_router/go_router.dart' • lib/features/inventory/brands/brand_list_screen.dart:3:8 • unused_import
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/inventory/brands/brand_list_screen.dart:77:45 • deprecated_member_use
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/features/inventory/brands/brand_list_screen.dart:110:44 • sized_box_for_whitespace
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/inventory/brands/brand_list_screen.dart:410:44 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/inventory/brands/brand_list_screen.dart:410:74 • deprecated_member_use
+warning • The value of the field '_formKey' isn't used • lib/features/inventory/categories/add_category_screen.dart:22:9 • unused_field
+warning • Unused import: 'package:go_router/go_router.dart' • lib/features/inventory/categories/category_list_screen.dart:3:8 • unused_import
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/inventory/categories/category_list_screen.dart:80:45 • deprecated_member_use
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/features/inventory/categories/category_list_screen.dart:116:44 • sized_box_for_whitespace
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/inventory/categories/category_list_screen.dart:420:44 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/inventory/categories/category_list_screen.dart:420:74 • deprecated_member_use
+warning • The name kDebugMode is shown, but isn't used • lib/features/inventory/products/add_product_screen.dart:3:55 • unused_shown_name
+   info • Don't use 'BuildContext's across async gaps • lib/features/inventory/products/add_product_screen.dart:116:13 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/features/inventory/products/add_product_screen.dart:132:11 • use_build_context_synchronously
+   info • Don't invoke 'print' in production code • lib/features/inventory/products/add_product_screen.dart:191:13 • avoid_print
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/inventory/products/add_product_screen.dart:603:52 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/inventory/products/add_product_screen.dart:616:52 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/inventory/products/item_list.dart:69:45 • deprecated_member_use
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/features/inventory/products/item_list.dart:158:44 • sized_box_for_whitespace
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/inventory/products/item_list.dart:451:55 • deprecated_member_use
+warning • Dead code • lib/features/inventory/products/item_list.dart:550:40 • dead_code
+warning • The left operand can't be null, so the right operand is never executed • lib/features/inventory/products/item_list.dart:550:43 • dead_null_aware_expression
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/inventory/products/item_list.dart:616:55 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/inventory/reports/invoice_settings_screen.dart:139:57 • deprecated_member_use
+   info • Statements in an if should be enclosed in a block • lib/features/inventory/reports/report_screen.dart:38:50 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/features/inventory/reports/report_screen.dart:39:54 • curly_braces_in_flow_control_structures
+warning • Unused import: 'package:go_router/go_router.dart' • lib/features/inventory/units/unit_list_screen.dart:3:8 • unused_import
+warning • Unused import: 'package:drift/drift.dart' • lib/features/inventory/units/unit_list_screen.dart:8:8 • unused_import
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/inventory/units/unit_list_screen.dart:78:45 • deprecated_member_use
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/features/inventory/units/unit_list_screen.dart:111:44 • sized_box_for_whitespace
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/inventory/units/unit_list_screen.dart:414:44 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/inventory/units/unit_list_screen.dart:414:74 • deprecated_member_use
+warning • Unused import: 'package:intl/intl.dart' • lib/features/invoice/screens/invoice_form_screen.dart:6:8 • unused_import
+  error • The name 'UserEntity' isn't a type, so it can't be used as a type argument • lib/features/invoice/screens/invoice_form_screen.dart:88:44 • non_type_as_type_argument
+  error • The property 'role' can't be unconditionally accessed because the receiver can be 'null' • lib/features/invoice/screens/invoice_form_screen.dart:96:33 • unchecked_use_of_nullable_value
+  error • The property 'name' can't be unconditionally accessed because the receiver can be 'null' • lib/features/invoice/screens/invoice_form_screen.dart:97:70 • unchecked_use_of_nullable_value
+  error • The name 'UserEntity' isn't a type, so it can't be used as a type argument • lib/features/invoice/screens/invoice_form_screen.dart:99:35 • non_type_as_type_argument
+   info • Don't invoke 'print' in production code • lib/features/invoice/screens/invoice_history_screen.dart:28:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/invoice/screens/invoice_history_screen.dart:31:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/invoice/screens/invoice_history_screen.dart:42:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/invoice/screens/invoice_history_screen.dart:56:21 • avoid_print
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/features/invoice/screens/invoice_history_screen.dart:117:48 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/features/invoice/screens/invoice_history_screen.dart:127:48 • use_build_context_synchronously
+  error • The getter 'users' isn't defined for the type 'AppDatabase' • lib/features/invoice/screens/invoice_history_screen.dart:186:62 • undefined_getter
+   info • Don't invoke 'print' in production code • lib/features/invoice/screens/invoice_history_screen.dart:193:25 • avoid_print
+  error • The getter 'users' isn't defined for the type 'AppDatabase' • lib/features/invoice/screens/invoice_history_screen.dart:242:70 • undefined_getter
+   info • Don't invoke 'print' in production code • lib/features/invoice/screens/invoice_history_screen.dart:251:33 • avoid_print
+  error • Undefined class 'UserEntity' • lib/features/invoice/screens/invoice_history_screen.dart:320:9 • undefined_class
+  error • Undefined class 'UserEntity' • lib/features/invoice/screens/invoice_preview_screen.dart:14:9 • undefined_class
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/invoice/screens/invoice_template_screen.dart:391:36 • deprecated_member_use
+  error • Undefined class 'UserEntity' • lib/features/invoice/state/invoice_state.dart:81:20 • undefined_class
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/features/pos/pos_screen.dart:161:23 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/features/pos/pos_screen.dart:165:40 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/features/pos/pos_screen.dart:217:38 • use_build_context_synchronously
+  error • The property 'name' can't be unconditionally accessed because the receiver can be 'null' • lib/features/pos/pos_screen.dart:455:50 • unchecked_use_of_nullable_value
+  error • The property 'phone' can't be unconditionally accessed because the receiver can be 'null' • lib/features/pos/pos_screen.dart:458:58 • unchecked_use_of_nullable_value
+  error • The property 'phone' can't be unconditionally accessed because the receiver can be 'null' • lib/features/pos/pos_screen.dart:460:56 • unchecked_use_of_nullable_value
+warning • The declaration '_showOverallDiscountDialog' isn't referenced • lib/features/pos/pos_screen.dart:1387:8 • unused_element
+  error • Undefined class 'UserEntity' • lib/features/pos/state/cart_state.dart:74:9 • undefined_class
+  error • Undefined class 'UserEntity' • lib/features/pos/state/cart_state.dart:111:5 • undefined_class
+  error • Undefined class 'UserEntity' • lib/features/pos/state/cart_state.dart:221:20 • undefined_class
+  error • The name 'UserEntity' isn't a type, so it can't be used as a type argument • lib/features/pos/state/cart_state.dart:254:53 • non_type_as_type_argument
+  error • The getter 'users' isn't defined for the type 'AppDatabase' • lib/features/pos/state/cart_state.dart:259:35 • undefined_getter
+warning • Unused import: 'package:drift/drift.dart' • lib/features/sales/screens/sales_list_screen.dart:3:8 • unused_import
+   info • Unnecessary use of multiple underscores • lib/features/sales/screens/sales_list_screen.dart:38:43 • unnecessary_underscores
+  error • The getter 'users' isn't defined for the type 'AppDatabase' • lib/features/sales/screens/sales_list_screen.dart:42:93 • undefined_getter
+   info • Unnecessary use of string interpolation • lib/features/sales/templates/advanced_gst_layout.dart:167:19 • unnecessary_string_interpolations
+  error • Undefined class 'UserEntity' • lib/features/sales/templates/luxury_layout.dart:12:5 • undefined_class
+   info • Unnecessary use of 'toList' in a spread • lib/features/sales/templates/thermal_layout.dart:134:18 • unnecessary_to_list_in_spreads
+  error • The name 'UserEntity' isn't a type, so it can't be used as a type argument • lib/features/suppliers/supplier_list_screen.dart:50:32 • non_type_as_type_argument
+  error • The property 'name' can't be unconditionally accessed because the receiver can be 'null' • lib/features/suppliers/supplier_list_screen.dart:58:25 • unchecked_use_of_nullable_value
+  error • The property 'phone' can't be unconditionally accessed because the receiver can be 'null' • lib/features/suppliers/supplier_list_screen.dart:61:23 • unchecked_use_of_nullable_value
+  error • The property 'email' can't be unconditionally accessed because the receiver can be 'null' • lib/features/suppliers/supplier_list_screen.dart:62:23 • unchecked_use_of_nullable_value
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/suppliers/supplier_list_screen.dart:86:45 • deprecated_member_use
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/features/suppliers/supplier_list_screen.dart:126:44 • sized_box_for_whitespace
+warning • Unused import: 'package:drift/drift.dart' • test/database/product_test.dart:2:8 • unused_import
+  error • 5 positional arguments expected by 'ProductViewModel.new', but 3 found • test/database/product_test.dart:29:27 • not_enough_positional_arguments
+warning • Unused import: 'package:ezo/core/models/enums/sync_status.dart' • test/features/sales/cart_notifier_test.dart:4:8 • unused_import
+  error • 5 positional arguments expected by 'ProductViewModel.new', but 4 found • test/product_view_model_test.dart:19:32 • not_enough_positional_arguments
+  error • Classes can only extend other classes • test/repro_create_background.dart:26:28 • extends_non_class
+   info • Parameter 'e' could be a super parameter • test/repro_create_background.dart:27:3 • use_super_parameters
+  error • Too many positional arguments: 0 expected, but 1 found • test/repro_create_background.dart:27:41 • extra_positional_arguments
+warning • The getter doesn't override an inherited getter • test/repro_create_background.dart:29:11 • override_on_non_overriding_member
+   info • Don't invoke 'print' in production code • test/repro_create_background.dart:37:5 • avoid_print
+  error • The method 'customSelect' isn't defined for the type 'TestDatabase' • test/repro_create_background.dart:43:16 • undefined_method
+   info • Don't invoke 'print' in production code • test/repro_create_background.dart:44:7 • avoid_print
+  error • The method 'into' isn't defined for the type 'TestDatabase' • test/repro_create_background.dart:47:16 • undefined_method
+  error • The getter 'products' isn't defined for the type 'TestDatabase' • test/repro_create_background.dart:47:24 • undefined_getter
+  error • Undefined name 'ProductsCompanion' • test/repro_create_background.dart:47:41 • undefined_identifier
+   info • Don't invoke 'print' in production code • test/repro_create_background.dart:53:7 • avoid_print
+   info • Don't invoke 'print' in production code • test/repro_create_background.dart:56:7 • avoid_print
+   info • Don't invoke 'print' in production code • test/repro_create_background.dart:57:7 • avoid_print
+  error • The method 'close' isn't defined for the type 'TestDatabase' • test/repro_create_background.dart:60:16 • undefined_method
+
