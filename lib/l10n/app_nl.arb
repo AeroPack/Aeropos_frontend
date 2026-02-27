@@ -1,0 +1,18 @@
+{
+  "@@locale": "nl",
+  "@@last_modified": "2026-02-25",
+  "appTitle": "AeroPOS",
+  "dashboard": "Dashboard",
+  "settings": "Instellingen",
+  "checkout": "Afrekenen",
+  "total": "Totaal",
+  "inventory": "Inventaris",
+  "languageSelection": "Taal",
+  "overview": "Overzicht",
+  "totalSales": "Totale verkopen",
+  "transactions": "Transacties",
+  "invoiceSettings": "Factuurinstellingen",
+  "invoiceSettingsSubtitle": "Indelingen en printeropties configureren",
+  "rolePermissions": "Rollen & Machtigingen",
+  "rolePermissionsSubtitle": "Roltoegang en beveiliging beheren"
+}

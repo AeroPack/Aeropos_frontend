@@ -1,0 +1,18 @@
+{
+  "@@locale": "ar",
+  "@@last_modified": "2026-02-25",
+  "appTitle": "AeroPOS",
+  "dashboard": "لوحة التحكم",
+  "settings": "الإعدادات",
+  "checkout": "الدفع",
+  "total": "الإجمالي",
+  "inventory": "المخزون",
+  "languageSelection": "اللغة",
+  "overview": "نظرة عامة",
+  "totalSales": "إجمالي المبيعات",
+  "transactions": "المعاملات",
+  "invoiceSettings": "إعدادات الفاتورة",
+  "invoiceSettingsSubtitle": "تكوين التخطيطات وخيارات الطابعة",
+  "rolePermissions": "الأدوار والصلاحيات",
+  "rolePermissionsSubtitle": "إدارة صلاحيات الأدوار والأمان"
+}

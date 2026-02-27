@@ -1,0 +1,59 @@
+{
+  "@@locale": "en",
+  "appTitle": "AeroPOS",
+  "@appTitle": {
+    "description": "The name of the application"
+  },
+  "dashboard": "Dashboard",
+  "@dashboard": {
+    "description": "Navigation label for the Dashboard screen"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Navigation label for the Settings screen"
+  },
+  "checkout": "Checkout",
+  "@checkout": {
+    "description": "POS checkout action label"
+  },
+  "total": "Total",
+  "@total": {
+    "description": "Total amount label in POS/invoice"
+  },
+  "inventory": "Inventory",
+  "@inventory": {
+    "description": "Inventory / Item Master navigation and section label"
+  },
+  "languageSelection": "Language",
+  "@languageSelection": {
+    "description": "Label for the language selection option"
+  },
+  "overview": "Overview",
+  "@overview": {
+    "description": "Dashboard section heading"
+  },
+  "totalSales": "Total Sales",
+  "@totalSales": {
+    "description": "Dashboard stat card title for total sales"
+  },
+  "transactions": "Transactions",
+  "@transactions": {
+    "description": "Dashboard and navigation label for transactions"
+  },
+  "invoiceSettings": "Invoice Settings",
+  "@invoiceSettings": {
+    "description": "Settings item title for invoice configuration"
+  },
+  "invoiceSettingsSubtitle": "Configure layouts and printer options",
+  "@invoiceSettingsSubtitle": {
+    "description": "Subtitle for invoice settings item"
+  },
+  "rolePermissions": "Role & Permissions",
+  "@rolePermissions": {
+    "description": "Settings item title for role and permissions management"
+  },
+  "rolePermissionsSubtitle": "Manage role access and security",
+  "@rolePermissionsSubtitle": {
+    "description": "Subtitle for role and permissions settings item"
+  }
+}

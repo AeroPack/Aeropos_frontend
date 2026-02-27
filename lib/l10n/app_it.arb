@@ -1,0 +1,18 @@
+{
+  "@@locale": "it",
+  "@@last_modified": "2026-02-25",
+  "appTitle": "AeroPOS",
+  "dashboard": "Cruscotto",
+  "settings": "Impostazioni",
+  "checkout": "Cassa",
+  "total": "Totale",
+  "inventory": "Inventario",
+  "languageSelection": "Lingua",
+  "overview": "Panoramica",
+  "totalSales": "Vendite totali",
+  "transactions": "Transazioni",
+  "invoiceSettings": "Impostazioni fattura",
+  "invoiceSettingsSubtitle": "Configura layout e opzioni stampante",
+  "rolePermissions": "Ruoli e permessi",
+  "rolePermissionsSubtitle": "Gestisci l'accesso ai ruoli e la sicurezza"
+}

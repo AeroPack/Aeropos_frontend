@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ezo/l10n/app_localizations.dart';
 import '../../core/di/service_locator.dart';
 
 class DashboardScreen extends StatelessWidget {
@@ -6,22 +7,27 @@ class DashboardScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+
     return Scaffold(
       body: SingleChildScrollView(
-        padding: EdgeInsets.all(MediaQuery.of(context).size.width < 600 ? 12 : 16),
+        // RTL-safe: EdgeInsetsDirectional respects text direction automatically
+        padding: EdgeInsetsDirectional.all(
+          MediaQuery.of(context).size.width < 600 ? 12 : 16,
+        ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-             const Text(
-              "Overview",
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            Text(
+              l10n.overview,
+              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 16),
-            
+
             // RESPONSIVE GRID SECTION
             LayoutBuilder(
               builder: (context, constraints) {
-                int crossAxisCount = 1; 
+                int crossAxisCount = 1;
                 if (constraints.maxWidth > 1200) {
                   crossAxisCount = 4;
                 } else if (constraints.maxWidth > 800) {
@@ -30,20 +36,40 @@ class DashboardScreen extends StatelessWidget {
                   crossAxisCount = 2;
                 }
 
-                double childAspectRatio = constraints.maxWidth > 600 ? 1.5 : 1.2;
+                final double childAspectRatio = constraints.maxWidth > 600
+                    ? 1.5
+                    : 1.2;
 
                 return GridView.count(
-                  shrinkWrap: true, 
+                  shrinkWrap: true,
                   physics: const NeverScrollableScrollPhysics(),
                   crossAxisCount: crossAxisCount,
                   crossAxisSpacing: 16,
                   mainAxisSpacing: 16,
                   childAspectRatio: childAspectRatio,
-                  children: const [
-                    _StatCard(title: "Total Sales", value: "₹45,231", color: Colors.blue),
-                    _StatCard(title: "Transactions", value: "128", color: Colors.orange),
-                    _StatCard(title: "New Products", value: "12", color: Colors.green),
-                    _StatCard(title: "Returns", value: "3", color: Colors.red),
+                  children: [
+                    // Stat cards use localized titles; removed 'const' as
+                    // localized strings are not compile-time constants.
+                    _StatCard(
+                      title: l10n.totalSales,
+                      value: '₹45,231',
+                      color: Colors.blue,
+                    ),
+                    _StatCard(
+                      title: l10n.transactions,
+                      value: '128',
+                      color: Colors.orange,
+                    ),
+                    const _StatCard(
+                      title: 'New Products',
+                      value: '12',
+                      color: Colors.green,
+                    ),
+                    const _StatCard(
+                      title: 'Returns',
+                      value: '3',
+                      color: Colors.red,
+                    ),
                   ],
                 );
               },
@@ -79,23 +105,23 @@ class DashboardScreen extends StatelessWidget {
             showDialog(
               context: context,
               barrierDismissible: false,
-              builder: (context) => const Center(
-                child: CircularProgressIndicator(),
-              ),
+              builder: (context) =>
+                  const Center(child: CircularProgressIndicator()),
             );
 
             try {
-              final success = await ServiceLocator.instance.syncService.cleanAndSync();
-              
+              final success = await ServiceLocator.instance.syncService
+                  .cleanAndSync();
+
               if (context.mounted) {
                 Navigator.pop(context); // Close loading dialog
-                
+
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(
                     content: Text(
-                      success 
-                        ? 'Database cleaned and synced successfully!' 
-                        : 'Clean and sync failed. Check console for details.',
+                      success
+                          ? 'Database cleaned and synced successfully!'
+                          : 'Clean and sync failed. Check console for details.',
                     ),
                     backgroundColor: success ? Colors.green : Colors.red,
                   ),
@@ -104,7 +130,7 @@ class DashboardScreen extends StatelessWidget {
             } catch (e) {
               if (context.mounted) {
                 Navigator.pop(context); // Close loading dialog
-                
+
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(
                     content: Text('Error: $e'),
@@ -123,13 +149,16 @@ class DashboardScreen extends StatelessWidget {
   }
 }
 
-// ... Keep your _StatCard class here ...
 class _StatCard extends StatelessWidget {
   final String title;
   final String value;
   final Color color;
 
-  const _StatCard({required this.title, required this.value, required this.color});
+  const _StatCard({
+    required this.title,
+    required this.value,
+    required this.color,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -140,20 +169,24 @@ class _StatCard extends StatelessWidget {
         border: Border.all(color: Colors.grey.shade200),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.05),
+            color: Colors.black.withValues(alpha: 0.05),
             blurRadius: 4,
             offset: const Offset(0, 2),
           ),
         ],
       ),
-      padding: const EdgeInsets.all(16),
+      // RTL-safe padding
+      padding: const EdgeInsetsDirectional.all(16),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Icon(Icons.analytics, color: color),
           const Spacer(),
-          Text(value, style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+          Text(
+            value,
+            style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+          ),
           Text(title, style: TextStyle(color: Colors.grey[600])),
         ],
       ),

@@ -1,0 +1,18 @@
+{
+  "@@locale": "es",
+  "@@last_modified": "2026-02-25",
+  "appTitle": "AeroPOS",
+  "dashboard": "Panel de control",
+  "settings": "Configuración",
+  "checkout": "Pago",
+  "total": "Total",
+  "inventory": "Inventario",
+  "languageSelection": "Idioma",
+  "overview": "Resumen",
+  "totalSales": "Ventas totales",
+  "transactions": "Transacciones",
+  "invoiceSettings": "Ajustes de factura",
+  "invoiceSettingsSubtitle": "Configurar diseños y opciones de impresora",
+  "rolePermissions": "Roles y permisos",
+  "rolePermissionsSubtitle": "Administrar el acceso a roles y la seguridad"
+}

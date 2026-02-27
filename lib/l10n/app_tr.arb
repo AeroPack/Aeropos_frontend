@@ -1,0 +1,18 @@
+{
+  "@@locale": "tr",
+  "@@last_modified": "2026-02-25",
+  "appTitle": "AeroPOS",
+  "dashboard": "Gösterge Paneli",
+  "settings": "Ayarlar",
+  "checkout": "Ödeme",
+  "total": "Toplam",
+  "inventory": "Envanter",
+  "languageSelection": "Dil",
+  "overview": "Genel Bakış",
+  "totalSales": "Toplam Satışlar",
+  "transactions": "İşlemler",
+  "invoiceSettings": "Fatura Ayarları",
+  "invoiceSettingsSubtitle": "Düzenleri ve yazıcı seçeneklerini yapılandırın",
+  "rolePermissions": "Rol ve İzinler",
+  "rolePermissionsSubtitle": "Rol erişimini ve güvenliği yönetin"
+}

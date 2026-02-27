@@ -1,0 +1,18 @@
+{
+  "@@locale": "fa",
+  "@@last_modified": "2026-02-25",
+  "appTitle": "AeroPOS",
+  "dashboard": "داشبورد",
+  "settings": "تنظیمات",
+  "checkout": "پرداخت",
+  "total": "جمع کل",
+  "inventory": "انبار",
+  "languageSelection": "زبان",
+  "overview": "مرور کلی",
+  "totalSales": "کل فروش",
+  "transactions": "تراکنش‌ها",
+  "invoiceSettings": "تنظیمات فاکتور",
+  "invoiceSettingsSubtitle": "تنظیم طرح‌بندی‌ها و گزینه‌های چاپگر",
+  "rolePermissions": "نقش‌ها و مجوزها",
+  "rolePermissionsSubtitle": "مدیریت دسترسی نقش‌ها و امنیت"
+}
